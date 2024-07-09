@@ -1,0 +1,7 @@
+- name: dynamic IPs
+  hosts: localhost
+  tasks:
+    - name: from js2.env to env
+      template:
+        src: /home/ec2-user/action-lab/.env.j2
+        dest: /home/ec2-user/action-lab/.env
