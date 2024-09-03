@@ -1,0 +1,8 @@
+[node1]
+node1_host ansible_host=172.31.21.239 ansible_ssh_private_key_file=/home/ec2-user/Your-pem-key ansible_user=ec2-user
+
+[node2]
+node2_host ansible_host=172.31.83.122 ansible_ssh_private_key_file=/home/ec2-user/Your-pem-key ansible_user=ec2-user
+
+[controlplane]
+controlplane_host ansible_host=172.31.27.227 ansible_ssh_private_key_file=/home/ec2-user/Your-pem-key ansible_user=ec2-user
